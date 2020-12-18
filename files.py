@@ -17,7 +17,6 @@ try:
         if val < low:
             low = val
         s = s + val
-
     avg = s/len(scoresArray)
     print("\nHighest Score: ", high)
     print("Lowest Score: ", low)
